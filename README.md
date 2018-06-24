@@ -23,6 +23,12 @@ iex> Identicon.main("test1")
 ```
 ![Output Example](https://github.com/dan1d/identicon/raw/master/test1.png)
 
+```
+iex> Identicon.main("test2")
+:ok
+```
+![Output Example](https://github.com/dan1d/identicon/raw/master/test2.png)
+
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
