@@ -1,4 +1,19 @@
 defmodule Identicon do
+
+  @doc """
+    Creates an image icon based on a string, it hashes the string and based on that hash it produces the same output for the same input.
+
+
+  ## Examples
+
+    iex> Identicon.main("test1")
+    :ok
+
+    iex> Identicon.main("test2")
+    :ok
+
+  """
+
   def main(input) do
     input
     |> hash_input
@@ -11,7 +26,7 @@ defmodule Identicon do
   end
 
   def save_image(image, input) do
-    File.write("built_images/#{input}.png", image)
+    File.write("#{input}.png", image)
   end
 
   def draw_image(%Identicon.Image{color: color, pixel_map: pixel_map}) do
