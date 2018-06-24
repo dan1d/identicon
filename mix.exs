@@ -36,8 +36,11 @@ defmodule Identicon.MixProject do
   def package do
     [
       name: "identicon",
-      licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/dan1d/identicon"},
+      licenses: ["MIT"],
+      links: %{
+        "GitHub" => "https://github.com/dan1d/identicon",
+        "Docs" => "https://dan1d.github.io/identicom/"
+      },
       maintainers: ["dan1d"]
     ]
   end
