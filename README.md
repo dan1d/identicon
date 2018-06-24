@@ -20,9 +20,8 @@ end
 ```
 iex> Identicon.main("test1")
 :ok
-
-![Output](https://raw.githubusercontent.com/dan1d/identicon/master/identicon/test1.png )
 ```
+![Output](https://raw.githubusercontent.com/dan1d/identicon/master/identicon/test1.png )
 
 
 
