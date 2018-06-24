@@ -1,6 +1,6 @@
 # Identicon
 
-**TODO: Add description**
+Just following the course on udemy.
 
 ## Installation
 
