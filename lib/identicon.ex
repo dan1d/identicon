@@ -1,6 +1,6 @@
 defmodule Identicon do
   @moduledoc """
-    Module to create a image based on a string as github does.
+    Package to create a image based on a string as github does.
 
   """
 
