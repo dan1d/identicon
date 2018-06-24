@@ -12,6 +12,14 @@ defmodule Identicon.MixProject do
       package: package(),
       source_url: "https://github.com/dan1d/identicon",
       homepage_url: "https://github.com/dan1d/identicon",
+      docs: docs()
+    ]
+  end
+
+  def docs do
+    [
+      main: "intro",
+      extras: ["docs/static/Intro.md"],
     ]
   end
 
@@ -31,7 +39,7 @@ defmodule Identicon.MixProject do
   end
 
   def description do
-    "Package to create a image based on a string as github does. It allways returns the same output for the same input."
+    "Package to create an image based on a string as github does. It allways returns the same output for the same input."
   end
 
   def package do
