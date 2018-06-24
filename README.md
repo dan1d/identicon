@@ -21,7 +21,7 @@ end
 iex> Identicon.main("test1")
 :ok
 ```
-[[test1.png|Output example]]
+![Output Example](https://github.com/dan1d/identicom/raw/master/test1.png)
 
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
