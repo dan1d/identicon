@@ -1,4 +1,9 @@
 defmodule Identicon do
+  @moduledoc """
+    Module to create a image based on a string as github does.
+
+  """
+
 
   @doc """
     Creates an image icon based on a string, it hashes the string and based on that hash it produces the same output for the same input.
