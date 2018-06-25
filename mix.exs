@@ -3,7 +3,7 @@ defmodule Identicon.MixProject do
 
   def project do
     [
-      app: :identicon,
+      app: :identicon_dan1d,
       version: "0.1.0",
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
@@ -33,7 +33,7 @@ defmodule Identicon.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:egd, github: "erlang/egd"},
+      # {:egd, github: "erlang/egd"},
       {:ex_doc, "~> 0.11", only: :dev}
     ]
   end
@@ -44,7 +44,7 @@ defmodule Identicon.MixProject do
 
   def package do
     [
-      name: "identicon",
+      name: "identicon_dan1d",
       licenses: ["MIT"],
       links: %{
         "GitHub" => "https://github.com/dan1d/identicon",
