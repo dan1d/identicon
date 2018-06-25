@@ -23,4 +23,4 @@ end
 iex> Identicon.main("test1")
 :ok
 ```
-![Output](https://raw.githubusercontent.com/dan1d/identicon/master/identicon/test1.png )
+![Output Example](https://github.com/dan1d/identicon/raw/master/test1.png)
